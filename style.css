@@ -314,6 +314,14 @@ nav {
     width: 100%;
 }
 
+div.section:nth-of-type(odd) {
+    background-color: var(--color-one);
+}
+
+div.section:nth-of-type(even) {
+    background-color: var(--color-two);
+}
+
 .inner-section {
     padding: 0.5rem 25% 0.5rem 25%;
 }
@@ -328,19 +336,6 @@ nav {
     content: "";
     clear: both;
     display: table;
-}
-
-.form {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-div.section:nth-of-type(odd) {
-    background-color: var(--color-one);
-}
-
-div.section:nth-of-type(even) {
-    background-color: var(--color-two);
 }
 
 .swatch-list {

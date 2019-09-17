@@ -137,6 +137,10 @@ hr {
     border: 0.0625rem inset #f2f2f260;
 }
 
+address {
+    font-style: normal;
+}
+
 .cite {
     font-size: small;
     margin-top: 0.25rem;

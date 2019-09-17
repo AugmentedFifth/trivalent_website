@@ -119,6 +119,16 @@ button {
     color: revert;
 }
 
+aside {
+    max-width: 33.33%;
+    margin-bottom: 0.5rem;
+    padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+    float: right;
+
+    border-left: 0.25rem solid #f2f2f260;
+    background-color: #623eeb20;
+}
+
 caption {
     font-weight: bolder;
 }
@@ -331,4 +341,37 @@ div.section:nth-of-type(odd) {
 
 div.section:nth-of-type(even) {
     background-color: var(--color-two);
+}
+
+.swatch-list {
+    list-style: none;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.swatch {
+    padding: 1rem;
+}
+
+#swatch-1 {
+    color: var(--trivalent-color-three);
+    background-color: var(--trivalent-color-one);
+}
+
+#swatch-2 {
+    color: var(--trivalent-color-four);
+    background-color: var(--trivalent-color-two);
+}
+
+#swatch-3 {
+    color: var(--trivalent-color-four);
+    background-color: var(--trivalent-color-three);
+}
+
+#swatch-4 {
+    color: var(--trivalent-color-three);
+    background-color: var(--trivalent-color-four);
+    border: 1px solid var(--trivalent-color-three);
 }

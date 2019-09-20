@@ -296,7 +296,8 @@ nav {
     }
 }
 
-.navlist a {
+.navlist a,
+.navlist .non-link {
     font-weight: bolder;
     color: var(--off-white);
     text-decoration: none;

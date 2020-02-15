@@ -206,6 +206,9 @@ address {
     width: 100%;
     max-width: 24rem;
 }
+.album-art:nth-of-type(n+2) {
+    margin-top: 1rem;
+}
 
 .total {
     text-align: end;

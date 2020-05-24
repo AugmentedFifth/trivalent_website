@@ -83,6 +83,13 @@ body {
     font-family: var(--sans);
 }
 
+h3,
+h4,
+h5,
+h6 {
+    text-decoration: underline #f2f2f260 solid 0.1rem;
+}
+
 li {
     padding: 0.25rem 0 0.25rem 0;
 }
@@ -361,6 +368,10 @@ main > div.section:nth-of-type(even) {
     content: "";
     clear: both;
     display: table;
+}
+
+footer.footer-alt {
+    background-color: var(--color-two);
 }
 
 .swatch-list {
